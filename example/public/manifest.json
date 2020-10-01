@@ -1,6 +1,6 @@
 {
-  "short_name": "@knc/react-nav",
-  "name": "@knc/react-nav",
+  "short_name": "react-page-nav",
+  "name": "react-page-nav",
   "icons": [
     {
       "src": "favicon.ico",
