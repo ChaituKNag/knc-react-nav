@@ -12,15 +12,24 @@ npm install --save @knc/react-nav
 
 ## Usage
 
+### Basic `NavBar`
+
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from '@knc/react-nav'
+import { NavBar } from '@knc/react-nav'
 import '@knc/react-nav/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <NavBar
+      links={[
+        { label: "Home", url: "/home" },
+        { label: "Products", url: "/products" },
+        { label: "About", url: "/about" },
+        { label: "Contact", url: "/contact" },
+      ]}
+    />
   }
 }
 ```
