@@ -1,9 +1,18 @@
 /* add css module styles here (optional) */
 
-.test {
+.nav {
   margin: 2em;
   padding: 0.5em;
   border: 2px solid #000;
   font-size: 2em;
   text-align: center;
+}
+
+.navList {
+  list-style-type: none;
+}
+
+.navList li {
+  display: inline-block;
+  padding: 0 1em;
 }
