@@ -1,6 +1,6 @@
 {
-  "short_name": "react-page-nav",
-  "name": "react-page-nav",
+  "short_name": "@nkonada/react-page-nav",
+  "name": "@nkonada/react-page-nav",
   "icons": [
     {
       "src": "favicon.ico",

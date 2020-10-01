@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { NavBar } from 'react-page-nav'
-import 'react-page-nav/dist/index.css'
+import { NavBar } from '@nkonada/react-page-nav'
+import '@nkonada/react-page-nav/dist/index.css'
 
 const App = () => {
   return (
